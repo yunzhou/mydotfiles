@@ -3,6 +3,7 @@
 #install nerd font
 curl -sS https://webi.sh/nerdfont | sh
 # link alacritty
+mkdir $HOME/.config/alacritty/
 ln -s ~/src/mydotfiles/alacritty/alacritty.toml  $HOME/.config/alacritty/alacritty.toml
 
 #tmux config
